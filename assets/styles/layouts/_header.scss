@@ -1,0 +1,33 @@
+header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.cta {
+	padding-top: 10px;
+	p {
+		line-height: 24px;
+	}
+	.top {
+		font-weight: 300;
+	}
+	.call {
+		font-size: 1.6em;
+	}
+}
+.cta-btn {
+	margin-top: 15px;
+	background-color: $brand-primary;
+	border-bottom: 2px solid $secondary;
+	padding: 10px;
+	color: #fff;
+	font-size: 1.2em;
+	.fa {
+		margin-left: 10px;
+	}
+}
+.cta-btn:hover {
+	color: #fff;
+	background-color: darken($brand-primary, 10%);
+	border-bottom: 2px solid $secondary;
+	transition: all ease-in-out 0.3s;
+}
